@@ -1,0 +1,18 @@
+Lets create a virtual enviroment
+
+1st. We need to install the library of virtualenv
+For Windows - python -m pip install virtualenv
+
+2. Lets use this library
+cd server 
+For windows - python -m venv venv
+
+NOTE: "cd" (Change Directory) to the folder that you want to use
+
+
+NOTE: This is something that you need to do everytime that you want to work in the Project (only step 3)
+    3. Lets launch the virtual Enviroments
+    For windows - venv\scripts\activate
+
+4. We want to install flask
+For windows - python -m pip install flask
