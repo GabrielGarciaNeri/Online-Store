@@ -12,7 +12,12 @@ if color <= "Blue":
 else:
     print("You're Wrong")
 
-
+age = 21
+if age <= 20:
+    print("Not old enough to drink")
+else:
+    print("Old enough to drink")
+    
 
 person = {
     "name": "Mo",
@@ -24,3 +29,14 @@ person = {
 print(person)
 
 print(person["age"])
+
+
+City = {
+    "Name": "Los Angeles",
+    "Country": "USA",
+    "Continent": "NA"
+}
+
+print(City)
+
+print(City["Country"])
