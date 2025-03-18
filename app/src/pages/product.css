@@ -1,0 +1,15 @@
+.product{
+    color: darkgoldenrod;
+    display: inline-block;
+    background-color: aquamarine;
+    text-align: center;
+    width: 250px;
+    height: 320px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.product h5{
+    text-decoration: underline;
+}
