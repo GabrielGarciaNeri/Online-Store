@@ -1,0 +1,14 @@
+.newProduct {
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 400px;
+}
+.newProduct .form-field{
+    margin-bottom: 12px;
+    text-align: left;
+}
+.newProduct .form-field label{
+    display: block;
+}

@@ -7,7 +7,7 @@ function Navbar(){
             <span className="title">Organika</span>
             <ul>
                 <li>Home</li>
-                <li>catalog</li>
+                <li>Catalogue</li>
                 <li>About</li>
             </ul>
         </div>

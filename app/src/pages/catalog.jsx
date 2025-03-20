@@ -46,14 +46,14 @@ const mockData = [
     },
     {
         "title": "Marias",
-        "price":9.72,
+        "price":9.99,
         "category": "Snacks",
         "image": "/Images/Maria.jpg",
         "_id": "1234567g"
     },
     {
         "title": "Butter",
-        "price":1.72,
+        "price":1.99,
         "category": "Dairy",
         "image": "/Images/butter.jpg",
         "_id": "1234567h"
