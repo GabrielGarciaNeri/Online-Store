@@ -1,0 +1,19 @@
+.about{
+    padding-top: 4rem;
+}
+
+.about h2{
+    text-align: center;
+    color: darkcyan;
+}
+
+.about img {
+    height: 250px;
+    border-radius: 50%;
+    border-color: 1px solid gray;
+    margin-bottom: 12px;
+}
+
+.about button{
+    margin-top: 12px;
+}
