@@ -6,6 +6,8 @@ function NewProduct(){
             console.log("Product Saved")
         )
     }
+
+
     return(
         <div className="newProduct">
             <div className="form-field">

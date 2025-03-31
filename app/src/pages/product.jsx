@@ -1,14 +1,21 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Quantity_Picker from "../components/quantity_picker";
 import "./product.css"
+import DataContext from "../state/dataContext";
 
 
 function Products(props){
     const [quantity, setQuantity] = useState(1);
 
+    const addProdToCart = useContext(DataContext).addProdToCart;
 
     function Add(){
         console.log("added to cart")
+
+        let copy = {...props.data};
+        copy.quantity = quantity
+        
+        addProdToCart(copy);
     }
 
     function handleQuantity(val){

@@ -10,6 +10,7 @@
     list-style: none;
     margin-bottom: 0;
     flex: 1;
+    align-items: center;
 }
 
 .navbar ul li{
@@ -34,6 +35,13 @@
 
 .navbar .cart-container{
     margin-left: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .cart-container button{
+    margin-left: 12px;
 }
 
 .navbar .cart-container i{
