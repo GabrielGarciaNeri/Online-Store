@@ -1,11 +1,11 @@
-.home{
-
-}
 
 .home .relative{
-
+    
 }
 
+.Home .Casa{
+    background-image: url('public/Images/background.jpg');
+}
 
 .home .over-image{
     position: absolute;
@@ -16,6 +16,7 @@
     top: 450px;
     left: 550px;
 }
+
 
 @media(max-width:767px){
     .home .over-image{

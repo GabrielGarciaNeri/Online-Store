@@ -7,7 +7,7 @@ function Home(){
             <h1>Welcome</h1>
 
             <div className="relative">
-                <img className= "main-img" src="" alt="" />
+                <img className= "background-img" src="Images/background.jpg" alt="" />
                 <div className="over-img">
                     <h3>From farmers to you</h3>
 
